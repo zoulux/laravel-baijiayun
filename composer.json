@@ -4,7 +4,7 @@
     "keywords": ["baijiayun", "baijiacloud","laravel", "sdk"],
     "type": "library",
     "license": "MIT",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "authors": [
         {
             "name": "Jake zou",
@@ -23,6 +23,13 @@
     "autoload-dev": {
         "psr-4": {
             "Jake\\LaravelBaijiayun\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jake\\LaravelBaijiayun\\BaiJiaCloudServiceProvider"
+            ]
         }
     }
 }
