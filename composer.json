@@ -4,7 +4,7 @@
     "keywords": ["baijiayun", "baijiacloud","laravel", "sdk"],
     "type": "library",
     "license": "MIT",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "authors": [
         {
             "name": "Jake zou",
@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=7.0",
-        "jake/baijiayun": "^0.4.0"
+        "jake/baijiayun": "^0.4"
     },
     "autoload": {
         "psr-4": {
